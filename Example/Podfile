@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'lz-string-objc_Example' do
+  pod 'lz-string-objc', :path => '../'
+
+  target 'lz-string-objc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
