@@ -1,0 +1,22 @@
+{
+  "name": "lz-string-objc",
+  "version": "0.1.0",
+  "summary": "A short description of lz-string-objc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangguibin1993@gmail.com/lz-string-objc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangguibin1993@gmail.com": "864562082@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wangguibin1993@gmail.com/lz-string-objc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "lz-string-objc/Classes/**/*"
+}

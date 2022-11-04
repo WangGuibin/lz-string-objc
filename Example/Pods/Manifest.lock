@@ -1,0 +1,16 @@
+PODS:
+  - lz-string-objc (0.1.0)
+
+DEPENDENCIES:
+  - lz-string-objc (from `../`)
+
+EXTERNAL SOURCES:
+  lz-string-objc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lz-string-objc: 78f22c7e466ffa7f92873d486d3d54696a28ca3d
+
+PODFILE CHECKSUM: 59df45e6eae50654720630ac2d77267090c1f8d4
+
+COCOAPODS: 1.11.3

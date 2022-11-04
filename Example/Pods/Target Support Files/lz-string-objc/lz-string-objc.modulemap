@@ -1,0 +1,6 @@
+framework module lz_string_objc {
+  umbrella header "lz-string-objc-umbrella.h"
+
+  export *
+  module * { export * }
+}
