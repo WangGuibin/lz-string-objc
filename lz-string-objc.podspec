@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/WangGuibin/lz-string-objc.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/06PBEc3aUWS4NSi'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0' #xcode14 只能从11起步了~
   s.osx.deployment_target = '10.9'
 
   s.source_files = 'lz-string-objc/Classes/**/*'
