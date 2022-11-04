@@ -10,10 +10,11 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wangguibin1993@gmail.com/lz-string-objc'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'CoderWGB' => '864562082@qq.com' }
-  s.source           = { :git => 'https://github.com/wangguibin1993@gmail.com/lz-string-objc.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WangGuibin/lz-string-objc.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/06PBEc3aUWS4NSi'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.9'
 
   s.source_files = 'lz-string-objc/Classes/**/*'
 end
