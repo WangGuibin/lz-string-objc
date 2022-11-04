@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'lz-string-objc'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'lz-string-objc is lz-string.js for objc implement interface call'
 
   s.description      = <<-DESC
