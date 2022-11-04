@@ -1,5 +1,5 @@
 PODS:
-  - lz-string-objc (0.1.0)
+  - lz-string-objc (1.0.0)
 
 DEPENDENCIES:
   - lz-string-objc (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  lz-string-objc: 78f22c7e466ffa7f92873d486d3d54696a28ca3d
+  lz-string-objc: a514dee27f328ae276f12529c8347fe6f6c99948
 
 PODFILE CHECKSUM: 59df45e6eae50654720630ac2d77267090c1f8d4
 

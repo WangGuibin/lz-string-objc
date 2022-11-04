@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 站在巨人的肩膀上造轮子
 // https://github.com/pieroxy/lz-string  一个js压缩库
-// 本轮子解决OC简单的调用问题 无需自己动手去写算法  直接通过js去调用lz-string.js的接口(拿来把你)
+// 本轮子解决OC简单的调用问题 无需自己动手去写算法  直接通过js去调用lz-string.js的接口 
 
 @interface LZStringObjc : NSObject
 

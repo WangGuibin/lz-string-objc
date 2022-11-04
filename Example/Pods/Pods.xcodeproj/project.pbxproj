@@ -7,69 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02559D71CA806BA9D415945A19D43867 /* lz-string-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA2C095F7B16BD0A1DCACB618BE3080 /* lz-string-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AD3ADCA9BAD6DA30D49C49B1374310A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1DD19A9A2EAC4A4B317BDD7E4DC8A808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		286D58F30058F5C5E28E84AD28DDE3DD /* Pods-lz-string-objc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2B07C870BA5A2FEB767CFCD0226E0A /* Pods-lz-string-objc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		314258D76C27BCEBCA7CFB6A99B4E7D2 /* lz-string-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F47C8BC29C2B76925450FFC9FA80BBAA /* lz-string-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C24D0E15E7FAB9167980063BFB1B41 /* LZStringObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DC4CEE42891D0AEF86775C0A22A53A /* LZStringObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F14B8645F2E90C845CB4CB89CCA68F7 /* Pods-lz-string-objc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF14614D610C94C13AC22B9BEAAFCB /* Pods-lz-string-objc_Example-dummy.m */; };
 		58FF1C58A1B2933A7059B2D13EEACEB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8CC90FACC8FA1D02FE8DB776F7D4B96E /* lz-string-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22E6CCF8BD51051BAA26773AB0BF94 /* lz-string-objc-dummy.m */; };
 		8EE966EDBAB2B9CA264BCCBBC347CF8C /* Pods-lz-string-objc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 788983A2ED9EEF04311B2551DFF736B2 /* Pods-lz-string-objc_Tests-dummy.m */; };
-		CA029FC129155340006C81B9 /* LZStringObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = CA029FBF29155340006C81B9 /* LZStringObjc.h */; };
-		CA029FC229155340006C81B9 /* LZStringObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = CA029FC029155340006C81B9 /* LZStringObjc.m */; };
+		C79B0141D2F9AFCFC60F08B89B732682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D93D25D3E538FC9E50E131F257E845BA /* Pods-lz-string-objc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58FA2AFDA4D33F4F653CD9496E1F073 /* Pods-lz-string-objc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F85FA2F748193CDB883084381D5D20BC /* lz-string-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8764F054375A553842B2ABB1534625 /* lz-string-objc-dummy.m */; };
+		FDD35C19A7B1172B04A3E06CE1D34F1B /* LZStringObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0DE5C1C6E132E6592AA5BD05EC7C05 /* LZStringObjc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54E1A44147A7BEE6D9F1310065317F05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 728293F6C1ADEFB54C51653DCF158E32;
-			remoteInfo = "Pods-lz-string-objc_Example";
-		};
-		E2E70D28F8FDE23CAD58E18D1EF8326B /* PBXContainerItemProxy */ = {
+		17B90E190BB6E7F0C15B1AAC13559699 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 85BD017A26F76AD30939BD0A1493F830;
 			remoteInfo = "lz-string-objc";
 		};
+		2B507B9D752F8077564DA64F18A9D323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 728293F6C1ADEFB54C51653DCF158E32;
+			remoteInfo = "Pods-lz-string-objc_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008ED1D6A4912CCF70056F548F14919D /* Pods-lz-string-objc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz-string-objc_Tests-Info.plist"; sourceTree = "<group>"; };
-		047A40B090E83815AD4AD5722C73C26F /* lz-string-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz-string-objc-prefix.pch"; sourceTree = "<group>"; };
+		0B7F609A042506C960AFC1D71A803B71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C093FE02A9C214326891AD6B2A02CCD /* lz-string-objc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "lz-string-objc.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16DC4CEE42891D0AEF86775C0A22A53A /* LZStringObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZStringObjc.h; path = "lz-string-objc/Classes/LZStringObjc.h"; sourceTree = "<group>"; };
+		1A91C96826282C59D66DBA43C41FE164 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1E9FC464A8D71D2A733675BCAD55A6AD /* Pods-lz-string-objc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lz-string-objc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F24569A6B3D6BAF24B34FD42665C3A0 /* lz-string-objc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "lz-string-objc.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		257841403565AC2C4EE6272651F4FCE1 /* lz-string-objc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lz-string-objc-Info.plist"; sourceTree = "<group>"; };
+		2A22E6CCF8BD51051BAA26773AB0BF94 /* lz-string-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lz-string-objc-dummy.m"; sourceTree = "<group>"; };
 		2C130D37FD467D41EC33C02FDCA08722 /* Pods-lz-string-objc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lz-string-objc_Example.modulemap"; sourceTree = "<group>"; };
 		3674015BA9E94ACC77790843D4AFE40A /* Pods-lz-string-objc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz-string-objc_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		42F432696D10655BC902F02CCCDFBFE0 /* Pods-lz-string-objc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lz-string-objc_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4452B32F59584E98C72C66AD4267B037 /* Pods-lz-string-objc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lz-string-objc_Example"; path = Pods_lz_string_objc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		491965D5F2067641F69C12861B83E56E /* lz-string-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lz-string-objc.release.xcconfig"; sourceTree = "<group>"; };
+		4BA27FD2F54735DDB641DD66228B3BAF /* lz-string-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lz-string-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		4FF6F45C0F6A86C8B64AB60FFEBB2453 /* Pods-lz-string-objc_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lz-string-objc_Tests"; path = Pods_lz_string_objc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5508B9F05A9031BAE9D6E4730E897B54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6F17CCDCA4902125C9D50B061E8BD165 /* lz-string-objc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lz-string-objc-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77AEF0AAE607BAD4FD2BB09ACC87F159 /* lz-string-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lz-string-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		788983A2ED9EEF04311B2551DFF736B2 /* Pods-lz-string-objc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lz-string-objc_Tests-dummy.m"; sourceTree = "<group>"; };
-		7A485301C23F7E5037DA79342061B87B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7D8764F054375A553842B2ABB1534625 /* lz-string-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lz-string-objc-dummy.m"; sourceTree = "<group>"; };
+		8BA2C095F7B16BD0A1DCACB618BE3080 /* lz-string-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz-string-objc-umbrella.h"; sourceTree = "<group>"; };
 		90F2ED5AE321B31B2FC3497D60BC9282 /* Pods-lz-string-objc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz-string-objc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99FA4B9BC558248466AF657D5364496B /* lz-string-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz-string-objc-prefix.pch"; sourceTree = "<group>"; };
 		9AB5E6877EE0D742FDC74E46192D32D2 /* Pods-lz-string-objc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz-string-objc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0DE5C1C6E132E6592AA5BD05EC7C05 /* LZStringObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZStringObjc.m; path = "lz-string-objc/Classes/LZStringObjc.m"; sourceTree = "<group>"; };
 		A3BEAB44F6469E1B1CA7DFBCAB8C414F /* Pods-lz-string-objc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz-string-objc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3C11DB2DFFEC94AEDB6717C38038967 /* lz-string-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "lz-string-objc.modulemap"; sourceTree = "<group>"; };
 		B57AE4B362B3EC3DA0AFB907A644F8D1 /* Pods-lz-string-objc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lz-string-objc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC1543ADAE05B66596EE2ED987389A9D /* Pods-lz-string-objc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lz-string-objc_Tests.modulemap"; sourceTree = "<group>"; };
-		CA029FBF29155340006C81B9 /* LZStringObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZStringObjc.h; sourceTree = "<group>"; };
-		CA029FC029155340006C81B9 /* LZStringObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZStringObjc.m; sourceTree = "<group>"; };
+		C92E701BC7D90E73962EBC4F363B5B0C /* lz-string-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lz-string-objc.release.xcconfig"; sourceTree = "<group>"; };
 		D2D5F307FD2044F8FCFDC13D7E4CB79D /* Pods-lz-string-objc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz-string-objc_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D353F3034E19386BE97D07AF82EFAF42 /* lz-string-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "lz-string-objc.modulemap"; sourceTree = "<group>"; };
 		DD2B07C870BA5A2FEB767CFCD0226E0A /* Pods-lz-string-objc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lz-string-objc_Example-umbrella.h"; sourceTree = "<group>"; };
 		E58FA2AFDA4D33F4F653CD9496E1F073 /* Pods-lz-string-objc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lz-string-objc_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EE20F05DE67551F5D47E262A703F7B56 /* lz-string-objc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "lz-string-objc"; path = lz_string_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCF14614D610C94C13AC22B9BEAAFCB /* Pods-lz-string-objc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lz-string-objc_Example-dummy.m"; sourceTree = "<group>"; };
-		F47C8BC29C2B76925450FFC9FA80BBAA /* lz-string-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz-string-objc-umbrella.h"; sourceTree = "<group>"; };
 		F92E48761E42174E394CE9BAA99EACE0 /* Pods-lz-string-objc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz-string-objc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC7652FBEF7A795F14D575612FF8ED0 /* Pods-lz-string-objc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz-string-objc_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		116BF1B29A3602ADF80AF40C366B6F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79B0141D2F9AFCFC60F08B89B732682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C80F66773383F289DF8B6226BCE6D7FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,30 +99,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F53F02FA5781767016FEC05B29B86ADD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD19A9A2EAC4A4B317BDD7E4DC8A808 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DDBB230B64F4FF3244F959F3D095F64 /* Support Files */ = {
+		4DB2A153615352B3EC68574A1A73AADD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D353F3034E19386BE97D07AF82EFAF42 /* lz-string-objc.modulemap */,
-				7D8764F054375A553842B2ABB1534625 /* lz-string-objc-dummy.m */,
-				6F17CCDCA4902125C9D50B061E8BD165 /* lz-string-objc-Info.plist */,
-				047A40B090E83815AD4AD5722C73C26F /* lz-string-objc-prefix.pch */,
-				F47C8BC29C2B76925450FFC9FA80BBAA /* lz-string-objc-umbrella.h */,
-				77AEF0AAE607BAD4FD2BB09ACC87F159 /* lz-string-objc.debug.xcconfig */,
-				491965D5F2067641F69C12861B83E56E /* lz-string-objc.release.xcconfig */,
+				1A91C96826282C59D66DBA43C41FE164 /* LICENSE */,
+				0C093FE02A9C214326891AD6B2A02CCD /* lz-string-objc.podspec */,
+				0B7F609A042506C960AFC1D71A803B71 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/lz-string-objc";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -123,16 +118,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5C5853AE0F7721D41572F28B8FB69B28 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7A485301C23F7E5037DA79342061B87B /* LICENSE */,
-				1F24569A6B3D6BAF24B34FD42665C3A0 /* lz-string-objc.podspec */,
-				5508B9F05A9031BAE9D6E4730E897B54 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		64360F7D201ABEC9B32CA8D20DE0D31C /* Products */ = {
@@ -162,10 +147,25 @@
 			path = "Target Support Files/Pods-lz-string-objc_Example";
 			sourceTree = "<group>";
 		};
-		A411E1E92CA9E7DC6FB9BBEDC1829C84 /* Development Pods */ = {
+		6FDA6AB4D04808BC1E484582E7458AC5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E3FE508D78E0A7FB40FC7572B3B3785A /* lz-string-objc */,
+				B3C11DB2DFFEC94AEDB6717C38038967 /* lz-string-objc.modulemap */,
+				2A22E6CCF8BD51051BAA26773AB0BF94 /* lz-string-objc-dummy.m */,
+				257841403565AC2C4EE6272651F4FCE1 /* lz-string-objc-Info.plist */,
+				99FA4B9BC558248466AF657D5364496B /* lz-string-objc-prefix.pch */,
+				8BA2C095F7B16BD0A1DCACB618BE3080 /* lz-string-objc-umbrella.h */,
+				4BA27FD2F54735DDB641DD66228B3BAF /* lz-string-objc.debug.xcconfig */,
+				C92E701BC7D90E73962EBC4F363B5B0C /* lz-string-objc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/lz-string-objc";
+			sourceTree = "<group>";
+		};
+		89917C2F1727903CF8D7A3D08CC6CA65 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB86A197916A69BBACB9547370DB77BE /* lz-string-objc */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -186,11 +186,23 @@
 			path = "Target Support Files/Pods-lz-string-objc_Tests";
 			sourceTree = "<group>";
 		};
+		BB86A197916A69BBACB9547370DB77BE /* lz-string-objc */ = {
+			isa = PBXGroup;
+			children = (
+				16DC4CEE42891D0AEF86775C0A22A53A /* LZStringObjc.h */,
+				9E0DE5C1C6E132E6592AA5BD05EC7C05 /* LZStringObjc.m */,
+				4DB2A153615352B3EC68574A1A73AADD /* Pod */,
+				6FDA6AB4D04808BC1E484582E7458AC5 /* Support Files */,
+			);
+			name = "lz-string-objc";
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A411E1E92CA9E7DC6FB9BBEDC1829C84 /* Development Pods */,
+				89917C2F1727903CF8D7A3D08CC6CA65 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				64360F7D201ABEC9B32CA8D20DE0D31C /* Products */,
 				E7463CCB898DC264D6FAC86029A9779D /* Targets Support Files */,
@@ -205,18 +217,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3FE508D78E0A7FB40FC7572B3B3785A /* lz-string-objc */ = {
-			isa = PBXGroup;
-			children = (
-				CA029FBF29155340006C81B9 /* LZStringObjc.h */,
-				CA029FC029155340006C81B9 /* LZStringObjc.m */,
-				5C5853AE0F7721D41572F28B8FB69B28 /* Pod */,
-				3DDBB230B64F4FF3244F959F3D095F64 /* Support Files */,
-			);
-			name = "lz-string-objc";
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		E7463CCB898DC264D6FAC86029A9779D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,12 +229,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5EF73F2820B127C6164F5D2E5A8CA29E /* Headers */ = {
+		2747954C7086BB3BAE9318A800298FBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314258D76C27BCEBCA7CFB6A99B4E7D2 /* lz-string-objc-umbrella.h in Headers */,
-				CA029FC129155340006C81B9 /* LZStringObjc.h in Headers */,
+				02559D71CA806BA9D415945A19D43867 /* lz-string-objc-umbrella.h in Headers */,
+				36C24D0E15E7FAB9167980063BFB1B41 /* LZStringObjc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				935079FB0C41C313ABC3D794E49DC177 /* PBXTargetDependency */,
+				0026007D0CD17DAD77414C44C1D7B8A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-lz-string-objc_Tests";
 			productName = Pods_lz_string_objc_Tests;
@@ -288,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1A23F16B1127AD95013B5943AA166DB2 /* PBXTargetDependency */,
+				C673436D0E19D9D35F21FF695F8F0BC0 /* PBXTargetDependency */,
 			);
 			name = "Pods-lz-string-objc_Example";
 			productName = Pods_lz_string_objc_Example;
@@ -297,12 +297,12 @@
 		};
 		85BD017A26F76AD30939BD0A1493F830 /* lz-string-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E575CD32EF2A6D3AEDA927ED4CDAD6C3 /* Build configuration list for PBXNativeTarget "lz-string-objc" */;
+			buildConfigurationList = EFC4A18E85A5F1A93F4872F1DC1CA82B /* Build configuration list for PBXNativeTarget "lz-string-objc" */;
 			buildPhases = (
-				5EF73F2820B127C6164F5D2E5A8CA29E /* Headers */,
-				D6EC63E518514C36CAA0D5ED1A59CC72 /* Sources */,
-				F53F02FA5781767016FEC05B29B86ADD /* Frameworks */,
-				8130DF820F77536577349843D570BA1F /* Resources */,
+				2747954C7086BB3BAE9318A800298FBE /* Headers */,
+				E363A9EEC9DD4D1AB62460F77E5C8E03 /* Sources */,
+				116BF1B29A3602ADF80AF40C366B6F20 /* Frameworks */,
+				ACDBF187BC9AF8D9B89082B16FA298BC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8130DF820F77536577349843D570BA1F /* Resources */ = {
+		ACDBF187BC9AF8D9B89082B16FA298BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,36 +383,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6EC63E518514C36CAA0D5ED1A59CC72 /* Sources */ = {
+		E363A9EEC9DD4D1AB62460F77E5C8E03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA029FC229155340006C81B9 /* LZStringObjc.m in Sources */,
-				F85FA2F748193CDB883084381D5D20BC /* lz-string-objc-dummy.m in Sources */,
+				8CC90FACC8FA1D02FE8DB776F7D4B96E /* lz-string-objc-dummy.m in Sources */,
+				FDD35C19A7B1172B04A3E06CE1D34F1B /* LZStringObjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A23F16B1127AD95013B5943AA166DB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lz-string-objc";
-			target = 85BD017A26F76AD30939BD0A1493F830 /* lz-string-objc */;
-			targetProxy = E2E70D28F8FDE23CAD58E18D1EF8326B /* PBXContainerItemProxy */;
-		};
-		935079FB0C41C313ABC3D794E49DC177 /* PBXTargetDependency */ = {
+		0026007D0CD17DAD77414C44C1D7B8A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-lz-string-objc_Example";
 			target = 728293F6C1ADEFB54C51653DCF158E32 /* Pods-lz-string-objc_Example */;
-			targetProxy = 54E1A44147A7BEE6D9F1310065317F05 /* PBXContainerItemProxy */;
+			targetProxy = 2B507B9D752F8077564DA64F18A9D323 /* PBXContainerItemProxy */;
+		};
+		C673436D0E19D9D35F21FF695F8F0BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lz-string-objc";
+			target = 85BD017A26F76AD30939BD0A1493F830 /* lz-string-objc */;
+			targetProxy = 17B90E190BB6E7F0C15B1AAC13559699 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F01F3A4323E7714593625B89EE781D0 /* Release */ = {
+		5FC7C070E0AA9ED8D566325FCD02C9C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 491965D5F2067641F69C12861B83E56E /* lz-string-objc.release.xcconfig */;
+			baseConfigurationReference = 4BA27FD2F54735DDB641DD66228B3BAF /* lz-string-objc.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,11 +436,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -497,9 +496,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		854C93EE3C928A12E3B569785EAFB5B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92E701BC7D90E73962EBC4F363B5B0C /* lz-string-objc.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lz-string-objc/lz-string-objc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lz-string-objc/lz-string-objc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lz-string-objc/lz-string-objc.modulemap";
+				PRODUCT_MODULE_NAME = lz_string_objc;
+				PRODUCT_NAME = lz_string_objc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -530,37 +562,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9704E80198DC211D31EB681CE1E22EDB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77AEF0AAE607BAD4FD2BB09ACC87F159 /* lz-string-objc.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/lz-string-objc/lz-string-objc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/lz-string-objc/lz-string-objc-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/lz-string-objc/lz-string-objc.modulemap";
-				PRODUCT_MODULE_NAME = lz_string_objc;
-				PRODUCT_NAME = lz_string_objc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -764,11 +765,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E575CD32EF2A6D3AEDA927ED4CDAD6C3 /* Build configuration list for PBXNativeTarget "lz-string-objc" */ = {
+		EFC4A18E85A5F1A93F4872F1DC1CA82B /* Build configuration list for PBXNativeTarget "lz-string-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9704E80198DC211D31EB681CE1E22EDB /* Debug */,
-				2F01F3A4323E7714593625B89EE781D0 /* Release */,
+				5FC7C070E0AA9ED8D566325FCD02C9C1 /* Debug */,
+				854C93EE3C928A12E3B569785EAFB5B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

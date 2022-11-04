@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LZStringObjc.h"
 
 FOUNDATION_EXPORT double lz_string_objcVersionNumber;
 FOUNDATION_EXPORT const unsigned char lz_string_objcVersionString[];
