@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'lz-string-objc'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'lz-string-objc is lz-string.js for objc implement interface call'
 
   s.description      = <<-DESC
@@ -14,7 +14,5 @@ Pod::Spec.new do |s|
    s.social_media_url = 'https://twitter.com/06PBEc3aUWS4NSi'
 
   s.ios.deployment_target = '11.0' #xcode14 只能从11起步了~
-  s.osx.deployment_target = '10.9'
-
   s.source_files = 'lz-string-objc/Classes/**/*'
 end
